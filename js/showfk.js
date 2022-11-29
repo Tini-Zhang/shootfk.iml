@@ -31,7 +31,7 @@ function animate(ele){
             ele.style.top=y+"%";
             score=score-1;
         }
-    },100);
+    },1000);
 
 }
 
