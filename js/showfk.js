@@ -1,7 +1,7 @@
 
 function showzq1(){
     const bkg=document.getElementById('main');
-    const zq1=document.createElement('div');
+    const zq1=document.createElement('button');
     bkg.appendChild(zq1);
     const zq1i=document.createElement('img');
     zq1.appendChild(zq1i);
