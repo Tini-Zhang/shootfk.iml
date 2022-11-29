@@ -24,7 +24,7 @@ function animate(ele){
     setInterval(function ()
     {
         var current=ele.offsetLeft;
-        ele.style.left=(current+1).toString()+"px";
+        ele.style.left=(1).toString()+"px";
         if(current>window.innerWidth-100){
             ele.style.left="8px";
             const y=Math.round(Math.random()*73+5).toString();
